@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec7ecfe768b840d086d5214ff78882f, type: 3}
+  m_Name: PartsData
+  m_EditorClassIdentifier: 
+  carsInfo:
+  - code: 0
+    model: {fileID: 2089478864536721013, guid: 94b68722031a84b2f8e9f4106204f3c3, type: 3}
+    img: {fileID: 21300000, guid: 392b6552c4da647ba8e58ea2b123c696, type: 3}
+  - code: 1
+    model: {fileID: 8744264344996669867, guid: 86a4af097b23645f8bac2d8479217e90, type: 3}
+    img: {fileID: 21300000, guid: 392b6552c4da647ba8e58ea2b123c696, type: 3}
+  engineInfo:
+  - code: 0
+    model: {fileID: 919132149155446097, guid: f87946c155d714883911485f6ddba91d, type: 3}
+    img: {fileID: 21300000, guid: 94da0f1438a2442cab7c4fd12db0b875, type: 3}
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 4
+        value: 400
+        inSlope: 0.02599065
+        outSlope: 0.02599065
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 8314.105
+        value: 615.98505
+        inSlope: -0.011578452
+        outSlope: -0.011578452
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.5325865
+        outWeight: 0.2848648
+      - serializedVersion: 3
+        time: 12152.372
+        value: 147.81961
+        inSlope: -0.098984964
+        outSlope: -0.098984964
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.11877308
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - code: 1
+    model: {fileID: 919132149155446097, guid: f87946c155d714883911485f6ddba91d, type: 3}
+    img: {fileID: 21300000, guid: 94da0f1438a2442cab7c4fd12db0b875, type: 3}
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 4
+        value: 400
+        inSlope: 0.027879426
+        outSlope: 0.027879426
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 8327.136
+        value: 632.04425
+        inSlope: -0.011578452
+        outSlope: -0.011578452
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.5325865
+        outWeight: 0.2848648
+      - serializedVersion: 3
+        time: 12152.372
+        value: 147.81961
+        inSlope: -0.098984964
+        outSlope: -0.098984964
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.11877308
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  nitroInfo:
+  - code: 0
+    model: {fileID: 919132149155446097, guid: 8d6d4bc6defc644d9ac0b8a044a7a63c, type: 3}
+    img: {fileID: 21300000, guid: 3d01b3140c83f459f9bb75cfa6c56f1b, type: 3}
+    maxValue: 10000
+  - code: 1
+    model: {fileID: 919132149155446097, guid: 8d6d4bc6defc644d9ac0b8a044a7a63c, type: 3}
+    img: {fileID: 21300000, guid: 3d01b3140c83f459f9bb75cfa6c56f1b, type: 3}
+    maxValue: 3611
+  steeringInfo:
+  - code: 0
+    model: {fileID: 919132149155446097, guid: 5b7f8a5b3fa0247c99aecbe852f8d055, type: 3}
+    img: {fileID: 21300000, guid: a417a4e25d69a47a6be491e0f2e0cef5, type: 3}
+    maxValue: 6
+  - code: 1
+    model: {fileID: 919132149155446097, guid: 5b7f8a5b3fa0247c99aecbe852f8d055, type: 3}
+    img: {fileID: 21300000, guid: a417a4e25d69a47a6be491e0f2e0cef5, type: 3}
+    maxValue: 4
+  dummyCarModel: {fileID: 919132149155446097, guid: aafe2945bb1fafa4cbdad09c6b3fca4b,
+    type: 3}
+  dummyEngineModel: {fileID: 919132149155446097, guid: f87946c155d714883911485f6ddba91d,
+    type: 3}
+  dummyNitroModel: {fileID: 919132149155446097, guid: 8d6d4bc6defc644d9ac0b8a044a7a63c,
+    type: 3}
+  dummySteeringModel: {fileID: 919132149155446097, guid: 5b7f8a5b3fa0247c99aecbe852f8d055,
+    type: 3}
+  dummyCarImg: {fileID: 21300000, guid: 392b6552c4da647ba8e58ea2b123c696, type: 3}
+  dummyEngineImg: {fileID: 21300000, guid: 94da0f1438a2442cab7c4fd12db0b875, type: 3}
+  dummyNitroImg: {fileID: 21300000, guid: 3d01b3140c83f459f9bb75cfa6c56f1b, type: 3}
+  dummySteeringImg: {fileID: 21300000, guid: a417a4e25d69a47a6be491e0f2e0cef5, type: 3}
